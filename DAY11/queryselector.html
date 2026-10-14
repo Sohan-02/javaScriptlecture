@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- QuerySelector() is a javascript DOM menthod used to select the first HTML element that matches  a specified css-->
+     <p class="demo">Hello</p>
+    <p class="demo">welcome</p>
+    <p class="demo">JavaScript</p>
+    <button onmouseleave="changecolor()" >subbmit</button>
+    
+    <script>
+        function changecolor()
+        {
+            let data = document.querySelector(".demo")
+            data.style.color="red";
+        }
+    </script>
+</body>
+</html>
