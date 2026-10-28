@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // variable can be redeclared &updated a global scope variable
+        var z=20;
+        var z=30;// variable is re declered var
+
+        z=29;
+
+        // variable cannot re declared but can be update , a block scope variable
+        let y =20;
+        // let y =45;  //cant redeclare the variable in let
+        y = 45; //update , reasign
+
+
+        //variable cannoyt be redeclared or update a block scope variable
+        const x = 67;
+        
+
+        console.log(z);
+        console.log(y);
+        console.log(x);
+    </script>
+</body>
+</html>

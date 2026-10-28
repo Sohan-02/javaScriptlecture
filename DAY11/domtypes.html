@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- DOM (Document Object Model): is a programming interface that repeats an HTML document as a tree of objectsIt allows js to add, remove accedd . or modify element from a webpage -->
+    <h1 id="printdata"></h1>
+    <h3></h3>
+    <p class="demo"></p>
+    <p class="demo"></p>
+    <p class="demo"></p>
+
+    <h3>hello</h3>
+    
+<script>
+
+document.getElementById("printdata").innerHTML="welcome";
+document.getElementById("printdata").style.color="blue";
+
+document.getElementsByClassName("demo")[0].innerHTML="blue";
+document.getElementsByClassName("demo")[2].innerHTML="green";
+
+document.getElementsByTagName("h3")[1].style.color="red";
+document.getElementsByTagName("h3")[0].innerHTML="This is tagename";
+
+
+</script>
+</body>
+</html>
